@@ -156,7 +156,7 @@ export const commitments = [
 export const contactDetails = [
   { label: 'Base',     value: 'Lahore, Pakistan' },
   { label: 'Email',    value: 'hello@ashlar.pk' },
-  { label: 'WhatsApp', value: '+92 300 000 0000' },
+  { label: 'WhatsApp', value: '+92 341 280 0001' },
 ];
 
-export const whatsappNumber = '923000000000';
+export const whatsappNumber = '923412800001';
