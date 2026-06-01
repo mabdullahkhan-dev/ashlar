@@ -127,7 +127,7 @@ export const footerServices = [
   'Renovation & Remodeling',
 ];
 
-export const footerCompany = ['About', 'Projects', 'Contact'];
+export const footerCompany = ['Services', 'About', 'Projects', 'Contact'];
 
 export const credentials = [
   { label: 'Registration', value: 'PEC Consulting Firm' },
