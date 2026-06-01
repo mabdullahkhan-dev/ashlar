@@ -125,6 +125,10 @@ body::before {
 .marquee-track { animation: var(--animate-marquee); }
 .marquee-wrap:hover .marquee-track { animation-play-state: paused; }
 
+@media (max-width: 768px) {
+  .marquee-track { animation-duration: 18s; }
+}
+
 /* ── Accordion body ── */
 .accordion-body {
   max-height: 0;

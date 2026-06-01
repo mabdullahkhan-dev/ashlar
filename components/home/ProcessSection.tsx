@@ -43,7 +43,7 @@ export default function ProcessSection({ altHeading }: ProcessSectionProps) {
                    style={{ background: 'var(--color-bg-raised)' }}>
                 {/* Top bar */}
                 <span className="absolute top-0 left-0 h-[2px] w-0 bg-copper transition-all duration-700 group-hover:w-full" />
-                <div className="font-serif font-semibold text-[64px] leading-none mb-5 text-white/[0.05] group-hover:text-copper/20 transition-colors duration-400">
+                <div className="font-serif font-semibold text-[64px] leading-none mb-5 text-white/[0.05] max-sm:text-copper/[0.28] group-hover:text-copper/20 transition-colors duration-400">
                   {step.n}
                 </div>
                 <h3 className="font-serif font-semibold text-[22px] text-text-primary mb-3">{step.title}</h3>

@@ -10,7 +10,7 @@ export default function StatsGrid({ bg }: StatsGridProps) {
       <div className="max-w-[1280px] mx-auto px-14 max-md:px-6">
         <div className="grid grid-cols-4 max-md:grid-cols-2 gap-x-0 divide-x max-md:divide-x-0 divide-border">
           {stats.map(({ value, label }) => (
-            <div key={label} className="px-8 first:pl-0 last:pr-0 max-md:px-6 max-md:py-8 max-md:border-b max-md:border-border odd:max-md:border-r odd:max-md:border-border last:max-md:border-b-0 [&:nth-child(2)]:max-md:border-b">
+            <div key={label} className="px-8 first:pl-0 last:pr-0 max-md:px-6 max-md:py-8 max-md:border-b max-md:border-border odd:max-md:border-r odd:max-md:border-border">
               <div className="font-serif font-semibold text-[clamp(48px,5.5vw,72px)] leading-none tracking-[-0.02em] text-text-primary">
                 {value.includes('+') || value.includes('%') || value.includes('B') ? (
                   <>

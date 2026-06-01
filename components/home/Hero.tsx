@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="col-span-7 max-lg:col-span-12 flex flex-col justify-center pr-12 max-lg:pr-0">
             <div className="mb-12">
               <Kicker>Construction Engineering</Kicker>
-              <span className="ml-4 text-[11px] font-semibold tracking-[1px] text-text-dim">Lahore, Pakistan</span>
+              <span className="ml-4 text-[11px] font-semibold tracking-[1px] text-text-dim whitespace-nowrap">Lahore, Pakistan</span>
             </div>
 
             <h1 className="font-serif font-semibold text-[clamp(54px,8.5vw,128px)] leading-[0.96] tracking-[-0.025em] text-text-primary mb-0">
@@ -43,16 +43,16 @@ export default function Hero() {
                 — so no one can pass the blame, and nothing falls between the gaps.
               </p>
 
-              <div className="flex items-center gap-7 flex-wrap">
+              <div className="flex items-center gap-7 max-sm:gap-3 flex-wrap max-sm:flex-nowrap">
                 <Link
                   href="/contact"
-                  className="text-[11px] font-bold tracking-[2px] uppercase px-10 py-[18px] bg-text-primary text-bg-base cursor-none transition-colors duration-250 hover:bg-copper-deep hover:text-bg-base whitespace-nowrap"
+                  className="text-[11px] font-bold tracking-[2px] uppercase px-10 py-[18px] max-sm:px-5 max-sm:py-3 bg-text-primary text-bg-base cursor-none transition-colors duration-250 hover:bg-copper-deep hover:text-bg-base whitespace-nowrap"
                 >
                   Start a Project
                 </Link>
                 <Link
                   href="/projects"
-                  className="text-[11px] font-semibold tracking-[2px] uppercase text-text-primary cursor-none inline-flex items-center gap-2 group transition-all duration-250 hover:text-copper hover:border-copper whitespace-nowrap px-10 py-[18px] border border-border"
+                  className="text-[11px] font-semibold tracking-[2px] uppercase text-text-primary cursor-none inline-flex items-center gap-2 group transition-all duration-250 hover:text-copper hover:border-copper whitespace-nowrap px-10 py-[18px] max-sm:px-5 max-sm:py-3 border border-border"
                 >
                   See our work
                   <span className="transition-transform duration-250 group-hover:translate-x-[5px]">→</span>
