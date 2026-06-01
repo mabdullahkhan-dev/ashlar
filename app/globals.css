@@ -126,7 +126,7 @@ body::before {
 .marquee-wrap:hover .marquee-track { animation-play-state: paused; }
 
 @media (max-width: 768px) {
-  .marquee-track { animation-duration: 18s; }
+  .marquee-track { animation-duration: 10s; }
 }
 
 /* ── Accordion body ── */
